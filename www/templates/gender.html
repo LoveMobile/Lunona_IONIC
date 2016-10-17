@@ -1,0 +1,50 @@
+<ion-view hide-nav-bar="true" class="bg">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-ios-arrow-thin-left"></button>
+  </ion-header-bar>
+  <ion-content class="has-footer has-header" scroll="false" >
+    <div class="martop70 " >
+      <h2 class=" text_white text_center best-world">{{ "your_gender" | translate}}</h2>
+      <p class="text_center text_white fs-16 best-world">{{"what_you_loooking" | translate}}</p>
+      
+      <div class="card no_background martop50">
+         
+        <div class="row boxmargin">
+            <div class="col"><img src="img/gender_03.png" width="100%"></div>
+            <div class="col text_center text_white fs-14">{{"I_AM" | translate}}</div>
+            <div class="col"><img src="img/gender_05.png" width="100%"></div>
+            
+          </div>
+
+          <div  class="woman1 text_center" id="myDIV" > 
+            <label class="fs-16">
+              <input type="radio" name="r1" value="1"  ng-model="select.gender" class="fs-16 radiobox" ng-click="myFunction()" > &nbsp;
+          <strong >{{"Man" | translate}}</strong> {{"i_looking_for" | translate}} {{"woman" | translate}}
+          </label>
+          </div> 
+
+          <div  class=" woman1 active text_center" id="myDIV1">
+            <label class="fs-16">
+              <input type="radio" name="r1" value="2" ng-model="select.gender" class="fs-16 radiobox" ng-click="myFunction1()">&nbsp;
+              <strong >{{"Woman" | translate}}</strong> {{"i_looking_for" | translate}}  {{"man" | translate}}
+          </label>
+          </div>
+        
+
+      <!-- <div  class=" text_center" ui-sref="register">
+        <img src="img/gender_10.png" width="100%">
+        </div>
+      <div class="row"></div>
+      <div  class=" text_center" ui-sref="register">
+        <img src="img/gender_14.png" width="100%">
+        </div> -->
+    </div>
+    </div>
+  </ion-content>
+  <div class="bar bar-footer ">
+    <button class="button button-block martop0 best-world" ng-click="Gonext();"   ><!-- ng-click="doLogin();" -->
+    {{"NEXT" | translate}}
+    <i class="icon ion-android-arrow-forward float_right"></i>
+    </button>
+  </div>
+</ion-view>

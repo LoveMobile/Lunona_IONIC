@@ -1,0 +1,459 @@
+/* Empty. Add your own CSS if you like */
+@font-face {
+  
+    font-family: myFirstFont;
+    src: url('font/Roboto-Regular.ttf');
+}
+ 
+.bg{
+	background: #59267c !important;
+}
+.text_white
+{
+	color: #fff !important;
+}
+.text_black
+{
+  color: #000 !important;
+}
+.text_assertive
+{
+   color: #EF473A !important;
+}
+.text_green
+{
+  color: #32CD32 !important;
+}
+.text_lightpurple
+{
+  color: #a07abb !important;
+}
+
+.text_lightpurple
+{
+  color: #a079ba !important;
+}
+.text_center
+{
+	text-align: center !important;
+}
+.text_black
+{
+  color: #000 !important;
+}
+.no_border
+{
+border:none;
+}
+.no_background
+{
+background:none !important;
+}
+.no_decoration
+{
+  text-decoration: none;
+}
+.fs-8{
+  font-size:8px !important;
+}
+.fs-10{
+  font-size:11px !important;
+}
+.fs-12{
+  font-size:12px !important;
+}
+.fs-14{
+  font-size:14px !important;
+}
+.fs-16{
+  font-size:16px !important;
+}
+.fs-18{
+  font-size:18px !important;
+}
+.fs-20{
+  font-size:20px !important;
+}
+.fs-22{
+  font-size:22px !important;
+}
+.fs-24{
+  font-size:24px !important;
+}
+.fs-26{
+  font-size:26px !important;
+}
+.fs-28{
+  font-size:28px !important;
+}
+.fs-30{
+  font-size:30px !important;
+}
+.fs-32{
+  font-size:32px !important;
+}
+.fs-34{
+  font-size:34px !important;
+}
+.fs-70{
+  font-size:70px !important;
+}
+.fs-90{
+  font-size:90px !important;
+}
+.f-bold
+{
+  font-weight: bold !important;
+}
+.no_background
+{
+	background-color: none !important;
+}
+.no_border
+{
+  border: none !important; 
+}
+
+.martop30
+{
+margin-top: 30px !important;
+}
+.martop50
+{
+margin-top: 50px !important;
+}
+.martop70
+{
+margin-top: 70px !important;
+}
+.martop-13
+{
+ margin-top: -13px !important;
+}
+
+
+.float_left
+{
+  float: left !important;
+}
+.float_right
+{
+  float: right !important;
+}
+ 
+.marginleft-5
+{
+  margin-left: -5px !important;
+}
+.marginleft5
+{
+  margin-left: 5px !important;
+}
+.marginleft20
+{
+  margin-left: 20px !important;
+}
+.text_purple{
+	color: #300f47;
+}
+
+
+.no_padding{
+  padding: 0px !important;
+}
+.border_bottom{
+	border-bottom: 1px solid #fff !important;
+}
+.nickname{
+	margin-top: -20px;
+}
+.maxminwidth100
+{
+	min-width: 100% !important;
+	max-width: 100% !important;
+}
+
+.button-set {
+  background: #4a226b !important;
+   width: 60%;
+    margin: 0px !important;
+    border: 3px solid #e4e0e0 !important;
+    color: #fff !important;
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+      font-family:'myFirstFont' !important;
+}
+
+.button-set1 {
+
+   width: 60%;
+    margin: 0px !important;
+    border: 3px solid #e4e0e0 !important;
+   
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+      font-family:'myFirstFont' !important;
+}
+.martop0{
+  margin-top:0px !important;
+}
+.button-set2 {
+ background: rgba(89,38,124,.5) !important;
+   width: 80%;
+    margin: 0px !important;
+    border: 2px solid #e4e0e0 !important;
+    
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+  font-family:'myFirstFont' !important;
+}
+
+.dropdown100 {
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+.bg_img{
+  background-image: url("../img/bg.png");
+  background-size: cover;
+}
+
+.round-box {
+    width: 100%;
+    background: rgba(97,45,133,.5);
+    height: auto;
+    padding: 12px 0;
+    margin-left: 48px;
+    border-radius: 100px 0 0 100px;
+    border: 2px solid #fff;
+    text-align: center;
+    max-width: 55px;
+    min-width: 55px;
+/*    margin-right: 14px;*/
+    position: absolute;
+    right: 0px !important;
+}
+*{
+
+  font-family:'myFirstFont'!important;
+}
+
+.select-lang{
+  margin-left: -30px;
+}
+
+
+.button-set3 {
+  background: #4a226b !important;
+   width: 100%;
+    margin: 0px !important;
+    border: 2px solid #e4e0e0 !important;
+    color: #fff !important;
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+    font-family:'myFirstFont' !important;
+}
+
+.button-set4 {
+
+   width: 80%;
+    margin: 0px !important;
+    border: 2px solid #e4e0e0 !important;
+   
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+    font-family:   'myFirstFont' !important;;
+}
+.footer-bg{
+  background: #7a439f;
+      border: 2px;
+}
+.button-set5 {
+  background: #4a226b !important;
+   width: 80%;
+    margin: 0px !important;
+    border: 3px solid #e4e0e0 !important;
+    color: #fff !important;
+    border-radius: 100px !important;
+    font-weight: normal;
+    font-size: 20px;
+      font-family:'myFirstFont' !important;
+}
+.footer-height{
+  height: 80px !important;
+}
+.lh15{
+  line-height: 15px;
+}
+.input-white{
+  color: white !important;
+}
+
+.martop10{
+  margin-top: 10px !important;
+}
+
+.boxmargin{
+  margin: 10px 0px 20px
+}
+
+.box-circle {
+    width: 95% !important;
+    border-radius: 100px !important;
+   /* border: 4px solid #fff !important;*/
+    height: 94px !important;
+     background: #eacece !important; 
+   /* padding: 30px !important;*/
+    float: left;
+    margin: 14px !important;
+    max-width: 26% !important;
+    /* color: transparent; */
+    min-width: 10% !important;
+    margin-left: 10px !important;
+}
+
+.box-circal {
+    width: 100% ;
+    border-radius: 100px;
+    border: 2px solid #fff ;
+    background: transparent;
+    height: 94px ;
+    padding: 30px ;
+    margin: 14px ;
+    max-width: 26% ;
+     min-width: 10% ;
+   
+}
+
+
+.boxes-over{
+  position: relative;top: -80px;
+
+}
+
+/*.popup-body {
+    padding: 79px;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+.select_box {
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    background: #59267c;
+    margin-top: -45px;
+    position: relative;
+    top: -12px;
+    color: #fff;
+}*/
+.linehight{
+  line-height: 10px;
+}
+.eyesicon{
+  position: relative;top: -35px; right: 5px;}
+.woman {
+    border-radius: 30px;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 20%;
+    padding: 14px;
+    background: #fff;
+    font-size: 16px;
+    color: #5a267b;
+    margin: 8px;
+    max-width: 95%;
+}
+
+.radiobox {
+    width: 18px;
+    height: 18px;
+    /* margin: 17px 0; */
+    position: relative;
+    top: 3px;
+}
+
+.woman1 {
+    border-radius: 30px;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 20%;
+    padding: 14px;
+    background: transparent;
+    font-size: 16px;
+    margin: 8px;
+    max-width: 95%;
+    color: #fff;
+}
+
+.fullcircle {
+    border-radius: 100px !important;
+    border: 2px solid #fff !important;
+    width: 100%;
+    /* height: 20%; */
+    margin: 9px 9px 0 9px  !important;
+    max-width: 95%;
+}
+.button-email {
+    padding: 0px 45px;
+    top: 26px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: relative;
+    z-index: 999999;
+}
+.marbottom-10{
+  margin-bottom: -10px;
+}
+
+#myDIV {
+  background: transparent;
+   /* background-color: coral;
+    color: white;*/
+}
+
+.divbg
+{
+  background: #fff !important;
+  color: #000;
+}
+.width100
+{
+  width: 100% !important;
+}
+.textboxdate
+{
+  min-width: 50px !important;
+  max-width: 50px !important;
+  margin-left: -17px !important;
+  background: transparent !important;
+  text-align: center !important;
+  color: #000 !important;
+}
+.bgtransparent
+{
+  background: transparent !important;
+}
+.paddingleft10
+{
+  padding-left: 10px !important;
+}
+.paddingtop10
+{
+  padding-top: 10px !important;
+}
+.paddingtopname
+{
+  padding-top: 13px !important;
+}
+.img25
+{
+  width: 25px !important;
+  height: 25px !important;
+}

@@ -1,0 +1,58 @@
+<ion-view hide-nav-bar="true" class="bg">
+
+ <ion-header-bar class="bar no_background no_border" >
+      <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-android-arrow-back"></button>
+     
+ </ion-header-bar>
+   
+<ion-content class="has-footer has-header" scroll="false" > 
+      <div class="martop70 " ui-sref="selectlaunguage" >
+        <h2 class=" text_white text_center  best-world" >{{"When_did_you_born" | translate}}</h2>
+        <p class=" text_white text_center fs-16 ">{{"your_age_must" | translate}}<br>
+       {{"your_birthday_will" | translate}}</p>
+        </div>
+
+      
+        
+        <div class="row">
+          <div class="col col-33 text_center text_lightpurple">{{"Day" | translate}}</div>
+          <div class="col col-33 text_center text_lightpurple">{{"Month" | translate}}</div>
+          <div class="col col-33 text_center text_lightpurple">{{"Year" | translate}}</div>
+        </div>
+
+        <div class="row no_padding">
+          <div class="col col-33 text_center box-circle box-circal ">
+            <input min="1" max="31" class="textboxdate" placeholder="{{'Day' | translate}}" type="text" ng-model="data.date" ion-number-picker readonly>
+          </div>
+          <div class="col col-33 text_center box-circle box-circal">
+            <input min="1" max="12" class="textboxdate" type="text" placeholder="{{'Month' | translate}}" ng-model="data.month" ion-number-picker readonly>
+          </div>
+          <div class="col col-33 text_center box-circle box-circal ">
+            <input min="1919" max="1998" class="textboxdate" type="text" placeholder="{{'Year' | translate}}" ng-model="data.year" ion-number-picker readonly>
+          </div>
+        </div>
+        
+
+        <!--  <div class="row no_padding">
+          <div class="col col-33 text_center box-circle box-circal fs-20 " ng-click="showAlert();"> 02 </div>
+          <div class="col col-33 text_center box-circle box-circal fs-26" ng-click="showAlert1();">02</div>
+          <div class="col col-33 text_center box-circle box-circal fs-26" ng-click="showAlert2();"> <i class="ion-ios-more fs-32"></i></div>
+        </div> -->
+          
+<!-- <input type="text" ng-model="value" ion-number-picker> -->
+     
+</ion-content>
+
+</ion-view>
+<div class="bar bar-footer ">
+  <button class="button button-block martop0"  ng-click="Gonext();"> <!-- ui-sref="finish" -->
+       {{"NEXT" | translate}}
+        <i class="icon ion-android-arrow-forward float_right"></i>
+      </button>
+</div>
+<!-- <div class="bar bar-footer no_background">
+ <button class="button button-full button-light martop30" ui-sref="password">
+       Login
+        <i class="icon ion-android-arrow-forward float_right"></i>
+      </button>
+</div> -->

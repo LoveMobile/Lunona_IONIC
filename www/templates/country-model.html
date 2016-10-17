@@ -1,0 +1,15 @@
+<ion-modal-view class="bg">
+  <ion-header-bar class="bar-header bg item-input-inset">
+  <label class="item-input-wrapper">
+    <i class="icon ion-ios7-search placeholder-icon"></i>
+    <input type="search" placeholder="Search" ng-change="search()" ng-model="data.search">
+  </label>
+  <button class="button button-clear"  ng-click="closeModal()">
+    Cancel
+  </button>      
+    </ion-header-bar>
+    <ion-content >
+      <div class="list">
+        <li class="item text_black" ng-repeat="airline in data.airlines" ng-click="setvalue(airline.name);">{{airline.name}}</li>
+      </div>
+</ion-modal-view>

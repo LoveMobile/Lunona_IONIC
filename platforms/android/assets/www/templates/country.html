@@ -1,0 +1,28 @@
+<ion-view hide-nav-bar="true" class="bg">
+
+ <ion-header-bar class="bar no_background no_border" >
+      <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-android-arrow-back"></button>
+     
+ </ion-header-bar>
+   
+<ion-content class="has-footer has-header" scroll="false" > 
+
+      <div class="martop70 " >
+        <h2 class=" text_white text_center  best-world" >{{"your_country" | translate}}</h2>
+        <p class=" text_white text_center martop-13 fs-16 ">{{"Country_Where_you_are" | translate}}</p>
+        </div>
+
+        <div class="card no_background martop50">
+          <div class="border_bottom no_background">
+            <input class="maxminwidth100 no_background text_white paddingleft10" type="text" ng-model="select.getcountry" placeholder="{{'Select_Country' | translate}}" ng-click="openModal();" readonly>
+          </div>
+        </div>    
+</ion-content>
+
+</ion-view>
+<div class="bar bar-footer ">
+  <button class="button button-block martop0" ng-click="Gonext();" >
+       {{"NEXT" | translate}}
+        <i class="icon ion-android-arrow-forward float_right"></i>
+      </button>
+</div>

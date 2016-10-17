@@ -1,0 +1,26 @@
+<ion-view hide-nav-bar="true" class="bg">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-ios-arrow-thin-left"></button>
+  </ion-header-bar>
+  <ion-content class="has-footer has-header" scroll="false" >
+
+    <div class="martop70 " >
+      <h2 class=" text_white text_center best-world">{{ "your_email" | translate}}</h2>
+      <p class="text_center text_white fs-14 best-world">{{ "What_Your_are_Looking_For" | translate}}</p>
+      <div class="card no_background martop50">
+        <p ng-if="showerroe!=''" class="text_center fs-14 text_assertive">{{showerroe.DataValue}}</p>
+        <div>          
+         <!--  <p class=" text_white fs-16 marginleft5 best-world ">andrefilipps@gmail.com</p> -->
+          <input class="float_left no_background border_bottom maxminwidth100 marginleft5 input-white" ng-model="Register.email" type="email"  placeholder="{{'Enter_Your_Email' | translate}}" >
+            <!-- <p class="text_lightpurple fs-16 martop10 text_assertive">Email you choose in available </p> -->
+        </div>
+      </div>
+    </div>
+  </ion-content>
+  <div class="bar bar-footer ">
+    <button class="button button-block martop0 best-world"   ng-click="Gonext();">
+    {{"NEXT" | translate}}
+    <i class="icon ion-android-arrow-forward float_right"></i>
+    </button>
+  </div>
+</ion-view>

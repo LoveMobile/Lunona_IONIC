@@ -1,0 +1,287 @@
+/* Empty. Add your own CSS if you like */
+
+.green_background
+{
+  background-color: #60ba78 !important;
+}
+.text_white
+{
+	color: #fff !important;
+}
+.text_assertive
+{
+   color: #EF473A !important;
+}
+.text_green
+{
+  color: #073406 !important;
+}
+
+.button_bg{
+  background: #378d0a;
+}
+.text_gray
+{
+  color: #32CD32 !important;
+}
+.text_center
+{
+	text-align: center !important;
+}
+.text_black
+{
+  color: #000 !important;
+}
+
+.fs-8{
+  font-size:8px !important;
+}
+.fs-10{
+  font-size:11px !important;
+}
+.fs-12{
+  font-size:12px !important;
+}
+.fs-14{
+  font-size:14px !important;
+}
+.fs-16{
+  font-size:16px !important;
+}
+.fs-18{
+  font-size:18px !important;
+}
+.fs-20{
+  font-size:20px !important;
+}
+.fs-22{
+  font-size:22px !important;
+}
+.fs-24{
+  font-size:24px !important;
+}
+.fs-26{
+  font-size:26px !important;
+}
+.fs-28{
+  font-size:28px !important;
+}
+.fs-30{
+  font-size:30px !important;
+}
+.fs-32{
+  font-size:32px !important;
+}
+.fs-34{
+  font-size:34px !important;
+}
+.fs-70{
+  font-size:70px !important;
+}
+.fs-90{
+  font-size:90px !important;
+}
+.f-bold
+{
+  font-weight: bold !important;
+}
+.no_background
+{
+	background-color: transparent; !important;
+}
+.no_border
+{
+  border: none !important; 
+}
+.border1
+{
+  border: 1px solid #999!important;
+}
+.border_bottom
+{
+  border-bottom: 1px solid #D44A4A !important;
+}
+.border_light
+{
+  border: 1px solid #C0C0C0 !important;
+}
+
+.white-space{
+  white-space: inherit !important;
+}
+
+
+.white_background
+{
+  background-color: #fff !important;
+}
+
+.float_left
+{
+  float: left !important;
+}
+.float_right
+{
+  float: right !important;
+}
+ 
+.marginleft5
+{
+  margin-left: 5px !important;
+}
+.marginleft10
+{
+  margin-left: 10px !important;
+}
+.course
+{
+  padding: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+.padding-5{
+  padding: -5px;
+}
+
+
+.no_padding{
+  padding: 0px !important;
+}
+
+.padding4 {
+    padding: 3px;
+}
+.mtop35{
+    margin-top:  35%; } 
+
+.mtop10{
+    margin-top:  10%; } 
+.mbottom{
+    margin-bottom: -42px; }  
+
+  .border_btm {
+    border-bottom: 2px solid #cb000f;
+}
+.mrg5{
+  margin:5px;
+}
+.mar8{
+  margin:8px !important;
+}
+
+.mar20{
+  margin:20px !important;
+}
+.martop20{
+  margin-top:20px !important;
+}
+
+.button-clr {
+    background: #398d18 !important;
+    margin: -41px 0 0px;
+    position: relative;
+    /* bottom: -10px; */
+    top: 1px;
+    z-index: 9999;
+}
+
+.button-set {
+    border-radius: 10px;
+      
+     width: 100% !important;
+     max-width: 100% !important;
+    background: linear-gradient(#149a5f,#056c3e )
+}
+
+.bor-radius{
+  border-radius: 8px;
+}
+
+.pad-top{
+  padding-top: 8px !important;
+}
+
+.text_lightgrren{
+  color: #067142;
+  text-align: left;
+}
+
+.background-light{
+  background: rgba(255,255,255,.5);
+}
+
+.bg_gray{
+  background: rgba(181,181,181,.5)!important;
+
+}
+
+
+.fee {
+    color:#216907 !important;
+    /* font-size: 14px; */
+    padding: 7px;
+}
+.fee1 {
+    color:#073406 !important;
+    /* font-size: 14px; */
+    text-align: center;
+}
+.fee2 {
+    color:#073406 !important;
+    padding: 5px;
+}
+  
+.creat-act{
+  width: 70%;
+  color: #067142;
+  text-align: left;
+}
+
+.header-bg {
+   background: linear-gradient(#70cf3c, #207008);
+   
+}
+
+.button-step {
+    width: 100% !important;
+}
+
+.background_img{
+ 
+  background: url('../img/bg_img.png');
+  width: 100%;
+  background-size: cover;
+}
+.services {
+    width: 100%;
+    
+    padding: 0% 9%;
+    margin: 16px 4px 6px 0px;
+    border-radius: 10px;
+    left: -1px;
+    max-width: 100% !important;
+    color: #1f5a01;
+    position: relative;
+    line-height: 32px;
+    float: left;
+    background: #a5d0b1;
+}
+
+
+.boxes {
+    margin-top: -21px !important;
+}
+
+.text-box {
+    width: 100%;
+    height: 100px;
+}
+
+.button-text{
+  margin:20px;
+}
+
+.Description{
+
+  background: linear-gradient(#149a5f,#056c3e );
+}

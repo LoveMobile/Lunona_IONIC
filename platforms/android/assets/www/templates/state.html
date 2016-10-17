@@ -1,0 +1,47 @@
+<ion-view hide-nav-bar="true" class="bg">
+
+ <ion-header-bar class="bar no_background no_border" >
+      <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-android-arrow-back"></button>
+     
+ </ion-header-bar>
+   
+<ion-content class="has-footer has-header" scroll="false" > 
+      <div class="martop70 " ui-sref="selectlaunguage" >
+        <h2 class=" text_white text_center  best-world" >{{"Your_State" | translate}}</h2>
+        <p class=" text_white text_center martop-13 fs-16 ">{{"State_Where_you_are" | translate}}</p>
+        </div>
+
+        <div class="card no_background martop50">
+        
+          <!-- <div>
+            <label class="item item-input item-select no_background border_bottom" >
+                <div class="input-label no_background   text_white">
+                </div>
+                <select class="dropdown100 no_background text_white" ng-model="select.state">
+                  <option class="text_black" value=""> {{"Select_State" | translate}}</option>
+                  <option ng-repeat="post in statelist " class="text_black" value="{{post}}"> {{post}}</option>
+                  
+                </select>
+              </label>
+          </div> -->
+          <div class="border_bottom no_background">
+            <input class="maxminwidth100 no_background text_white paddingleft10" type="text" ng-model="select.state" placeholder="{{'Select_State' | translate}}" ng-click="openModal();" readonly>
+          </div>
+
+        </div>
+     
+</ion-content>
+
+</ion-view>
+<div class="bar bar-footer ">
+  <button class="button button-block martop0" ng-click="Gonext();" >
+       {{"NEXT" | translate}}
+        <i class="icon ion-android-arrow-forward float_right"></i>
+      </button>
+</div>
+<!-- <div class="bar bar-footer no_background">
+ <button class="button button-full button-light martop30" ui-sref="password">
+       Login
+        <i class="icon ion-android-arrow-forward float_right"></i>
+      </button>
+</div> -->

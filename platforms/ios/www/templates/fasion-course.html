@@ -1,0 +1,29 @@
+<ion-view hide-nav-bar="true" class="background_img">
+  <ion-header-bar class="bar  header-bg no_border">
+  <button menu-toggle="left" class="button button_bg  text_white icon  ion-navicon"></button>
+  
+  <h1 class="title fs-16 text_white" ><!-- Fasion Course Level -1 -->{{programname}}</h1>
+  </ion-header-bar>
+<ion-content class="has-header">
+    <div class=" text_center course">
+        <h5 class="text_green"></h5>       
+    </div>
+    <div>
+       <h3 class="marginleft10 text_green no_background">PROGRAMMEE</h3>
+    </div>
+      <div class="card background-light bor-radius ">
+        <div class="marginleft10">
+        <h4><!-- Fasion Course Level -1 -->{{programname}}</h4>
+        </div>
+        <div ng-repeat="post in allcourses track by $index" class="item no_border white-space background-light fee1" ng-click="Godetail(post);">
+          <i class="icon ion-arrow-right-c float_left"></i>
+          {{post.post_title}}
+        </div>
+      </div>
+    
+
+   
+  
+  
+</ion-content>
+</ion-view>

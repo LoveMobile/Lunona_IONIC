@@ -1,0 +1,138 @@
+<ion-view hide-nav-bar="true" class="bg">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-ios-arrow-thin-left"></button>
+  </ion-header-bar>
+  <ion-content class="has-footer has-header" scroll="true" >
+    <div>
+      <h2 class=" text_white text_center ">Finish</h2>
+      <p class="text_center text_white fs-14 ">You are one tab away to enter on lunona</p>
+      
+      <div class="card no_background ">
+        <div class="marbottom-10">      
+            <div class="col no_padding text_center">
+              <button class="button button-email fs-14 button-light text_center">
+                Email
+              </button>
+            </div>           
+            <!-- <a class="item text_center no_background item-icon-right text_white f-bold fullcircle">
+               <img  class="float_left" src="img/finish_03.png" width="12%">&nbsp;
+              {{loginemail}}
+              <i class="icon ion-edit text_black" ui-sref="register"></i>
+            </a> -->
+            <div class="row text_center text_white f-bold fullcircle f-bold paddingtop10">
+              <div class="col col-20 paddingtop10">
+                <img class="float_left img25" src="img/finish_03.png">
+              </div>
+              <div class="col col-60 paddingtopname" >{{loginemail}}</div>
+              <div class="col col-20"><i class="icon fs-28 ion-edit text_black" ui-sref="register"></i></div>
+            </div>
+        </div>
+
+        <div class="marbottom-10">      
+            <div class="col no_padding text_center">
+              <button class="button button-email fs-14 button-light text_center">
+                I am
+              </button>
+            </div>           
+            <!-- <a class="item text_center no_background item-icon-right text_white f-bold fullcircle">
+              <img class="float_left" src="img/finish_07.png" style="width:30px; height:25px;">&nbsp;
+              <span ng-if="gender=='1'">Man and i'm looking for a woman</span>
+              <span ng-if="gender=='2'">Woman and i'm looking for a man</span>
+              
+              <i class="icon ion-edit text_black" ui-sref="gender"></i>
+            </a> -->
+            <div class="row text_center text_white f-bold fullcircle f-bold paddingtop10">
+              <div class="col col-20 paddingtop10">
+                <img class="float_left img25" src="img/finish_07.png">
+              </div>
+              <div class="col col-60 paddingtopname" >
+                <span ng-if="gender=='1'">Man and i'm looking for a woman</span>
+                <span ng-if="gender=='2'">Woman and i'm looking for a man</span>
+              </div>
+              <div class="col col-20 paddingtop10">
+                <i class="icon fs-28 ion-edit text_black" ui-sref="gender"></i>
+              </div>
+            </div>
+        </div>
+
+        <div class="marbottom-10">
+      
+            <div class="no_padding text_center">
+              <button class="button button-email fs-14 button-light text_center">
+              Nickname</button>
+            </div>           
+            <!-- <a class="item text_center no_background item-icon-right text_white f-bold fullcircle">
+              <img class="float_left" src="img/finish_10.png" width="10%">
+              {{nickname}}
+              <i class="icon ion-edit text_black" ui-sref="displayname"></i>
+            </a> -->
+            <div class="row text_center text_white f-bold fullcircle f-bold paddingtop10">
+              <div class="col col-20">
+                <img class="float_left img25" src="img/finish_10.png">
+              </div>
+              <div class="col col-60 paddingtopname" >{{nickname}}</div>
+              <div class="col col-20"><i class="icon fs-28 ion-edit text_black" ui-sref="displayname"></i></div>
+            </div>
+        </div>
+
+        <div class="marbottom-10">      
+            <div class="col no_padding text_center">
+              <button class="button button-email fs-14 button-light text_center">
+              I live in
+              </button>
+            </div>
+           
+            <!-- <a class="item text_center no_background item-icon-right text_white f-bold fullcircle">
+              <img class="float_left" src="img/EN.png" width="12%">&nbsp;
+               {{countryname}}
+              <i class="icon ion-edit text_black" ui-sref="country"></i>
+            </a> -->
+            <div class="row text_center text_white f-bold fullcircle f-bold paddingtop10">
+              <div class="col col-20 paddingtop10">
+                <img class="float_left img25" src="img/EN.png">
+              </div>
+              <div class="col col-60 paddingtopname" >
+                {{countryname}}
+              </div>
+              <div class="col col-20 paddingtop10">
+                <i class="icon fs-28 ion-edit text_black" ui-sref="country"></i>
+              </div>
+            </div>
+        </div>
+
+        <div>      
+            <div class="col no_padding text_center">
+              <button class="button button-email fs-14 button-light text_center">
+              I was born
+              </button>
+            </div>           
+            <!-- <a class="item text_center no_background item-icon-right text_white f-bold fullcircle">
+              <img class="float_left"  src="img/finish_14.png" width="12%">&nbsp;
+                 {{day}}/{{month}}/{{year}}
+              <i class="icon ion-edit text_black" ui-sref="birthdate"></i>
+            </a> -->
+            <div class="row text_center text_white f-bold fullcircle f-bold paddingtop10">
+              <div class="col col-20 paddingtop10">
+                <img class="float_left img25" src="img/finish_14.png">
+              </div>
+              <div class="col col-60 paddingtopname" >
+                {{day}}/{{month}}/{{year}}
+              </div>
+              <div class="col col-20 paddingtop10">
+                <i class="icon fs-28 ion-edit text_black" ui-sref="birthdate"></i>
+              </div>
+            </div>
+        </div>
+
+
+    </div>
+  </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </ion-content>
+  <div class="bar bar-footer no_padding bgtransparent footer-height" ng-click="Register();">
+    <img src="img/doneimg.png" width="100%"  >
+  </div>
+</ion-view>

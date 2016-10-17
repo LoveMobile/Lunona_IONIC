@@ -1,0 +1,22 @@
+<ion-view hide-nav-bar="true" class="bg">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-ios-arrow-thin-left"></button>
+  </ion-header-bar>
+  <ion-content class="has-footer has-header" scroll="false" >
+    <div class="martop70 " >
+      <h2 class=" text_white text_center best-world">{{"Login_to" | translate}} <span class="fs-20">{{"Lunona" | translate}} </span></h2>
+      <div class="card no_background martop50">
+        <div>
+          <p class=" text_white fs-16 marginleft5 best-world ">{{"Nickname_or_email" | translate}}</p>
+          <input class="float_left no_background border_bottom maxminwidth100 marginleft5 input-white" type="text" ng-model="data.login" placeholder="{{'Enter_Your_Email' | translate}}" >
+        </div>
+      </div>
+    </div>
+  </ion-content>
+  <div class="bar bar-footer ">
+    <button class="button button-block martop0 best-world" ng-click="doLogin();"  >
+    {{"NEXT" | translate}}
+    <i class="icon ion-android-arrow-forward float_right"></i>
+    </button>
+  </div>
+</ion-view>

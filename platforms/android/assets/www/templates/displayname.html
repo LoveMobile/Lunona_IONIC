@@ -1,0 +1,37 @@
+<ion-view hide-nav-bar="true" class="bg">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-ios-arrow-thin-left"></button>
+  </ion-header-bar>
+  <ion-content class="has-footer has-header" scroll="false" >
+    <div class="martop70 " >
+      <h2 class=" text_white text_center best-world">{{"Your_Display_Name" | translate}}</h2>
+      <p class="text_center text_white fs-16 best-world">{{"display_name_page" | translate}} </p>
+      <div class=" card no_background  martop50">
+     
+          <a class="item  no_background border_bottom text_white item-icon-right">
+    
+            <!-- Andre --><!-- {{choosename}} -->
+            <input class="float_left no_background maxminwidth100 marginleft5 input-white" type="text" ng-model="name.nickname" placeholder="{{'Enter_Nick_Name' | translate}}">
+            <i ng-if="getdata.OperationResult=='0'" class="icon ion-checkmark-circled"></i>
+            <i ng-if="showerroe.OperationResult=='1'"  class="icon ion-close-circled"></i>
+          </a>
+          <!-- <a class=" no_background  text_white marginleft5" ng-repeat="post in getdata track by $index"> {{post}}</a> -->
+          <p ng-if="getdata.OperationResult=='0'" class="text_lightpurple fs-16 martop10">{{"Name_available" | translate}}</p>
+          <p ng-if="showerroe.OperationResult=='1'"  class="text_lightpurple fs-16 martop10 text_assertive">{{"Name_not_available" | translate}}</p>
+
+        
+      </div>
+
+    </div>
+  </ion-content>
+  <div class="bar bar-footer ">
+    <button ng-hide="Nexthide" class="button button-block martop0 best-world"  ng-click="Gonext();">
+    {{"NEXT" | translate}}
+    <i class="icon ion-android-arrow-forward float_right"></i>
+    </button>
+    <button  ng-hide="checkhide"  class="button button-block martop0 best-world" ng-click="Gocheck();">
+    {{"Check_Name" | translate}}
+    <i class="icon ion-android-arrow-forward float_right"></i>
+    </button>
+  </div>
+</ion-view>

@@ -1,0 +1,18 @@
+<ion-view hide-nav-bar="true">
+  <ion-header-bar class="bar no_background no_border" >
+    <button onclick="javascript:history.go(-1)" class="button button-clear text_white icon  ion-android-arrow-back"></button>
+    <button   class="button button-clear text_white icon  ">Forgot my password</button>
+    <!-- <a> Forgot my password</a> -->
+  </ion-header-bar>
+  <ion-content >
+    <div class="martop70 " >
+      <div class="logo text-center"><img src="img/user_03.png"   width="150"></div>
+      <h2 class="text_center text_purple best-world" >#{{username}}</h2>
+      <div class=" text_center martop50">
+        <button class="button button-energized button-set5 martop30" ng-click="doLogout();">
+          Log out
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

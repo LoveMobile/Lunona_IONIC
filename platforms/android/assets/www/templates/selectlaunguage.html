@@ -1,0 +1,71 @@
+<ion-view hide-nav-bar="true" class="bg">
+
+ 
+<ion-content > 
+      <div class="  text_center martop30 no_background">
+        <div class="select-lang">
+        	<p class=" text_white text_center  fs-22">
+                <i class="ion-ios-close-outline fs-32" onclick="window.history.go(-1);" >&nbsp;&nbsp;&nbsp</i> 
+                SELECT &nbsp; <span class="fs-22 text_gray"> LANGUAGE</span> 
+            </p>
+        </div>
+    
+      <div class="martop30">
+        
+        <div ng-repeat="lang in langauges" >
+            <div class="row"></div>
+            <button ng-click="selectValue(lang.ISO);" class="button button-energized button-set2 text_white  martop30 fs-18">
+                <img class="float_left martop10" ng-src="img/{{lang.ISO}}.png" width="10%" height="8%">
+                {{lang.TranslatedValue}}
+            </button>
+        </div>
+
+      <!--   <button class="button button-block button-outline  button-set" style="border-radius: 50px !important;" ng-click="select_language('en');"> English</button>
+      <div class="row"></div>
+      <button class="button button-block button-outline  button-set" ng-click="select_language('ar');" style="border-radius: 50px !important;" >عربي</button> -->
+
+        <!-- <button class="button button-light button-set4 text_lightpurple  martop30 fs-18">
+        <img class="float_left martop10" src="img/select_03.png" width="10%" height="8%">
+         English
+        </button>
+        </div>
+        <div class="row"></div>
+         <button class="button button-energized button-set2 text_white  martop30 fs-18">
+         <img class="float_left martop10" src="img/select_07.png" width="10%" height="8%">
+          Greek
+        </button>
+        <div class="row"></div>
+         <button class="button button-energized button-set2 text_white   martop30 fs-18">
+         <img class="float_left martop10" src="img/select_11.png" width="10%" height="8%">
+          Russian
+        </button>
+        <div class="row"></div>
+
+         <button class="button button-energized button-set2 text_white  martop30 fs-18">
+         <img class="float_left martop10" src="img/select_15.png" width="10%" height="8%">
+         German
+        </button>
+        <div class="row"></div>
+         <button class="button button-energized button-set2 text_white   martop30 fs-18">
+         <img class="float_left martop10" src="img/select_18.png" width="10%" height="8%">
+          Italian
+        </button>
+        <div class="row"></div>
+         <button class="button button-energized button-set2 text_white   martop30 fs-18">
+         <img class="float_left martop10" src="img/select_20.png" width="10%" height="8%">
+          Hungarian
+        </button>
+		<div class="row"></div>
+         <button class="button button-energized button-set2 text_white   martop30 fs-18">
+         <img class="float_left martop10" src="img/select_24.png" width="10%" height="8%">
+          Albanian
+        </button>
+        <div class="row"></div>
+        <button class="button button-energized button-set2 text_white   martop30 fs-18">
+        <img class="float_left martop10" src="img/select_26.png" width="10%" height="8%">
+          Romanian
+        </button> -->
+        </div>
+     </div>
+</ion-content>
+</ion-view>
